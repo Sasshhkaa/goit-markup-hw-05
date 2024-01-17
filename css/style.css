@@ -572,6 +572,7 @@ width: 40px;
 height: 100%;
 position: fixed;
 top: 0;
+left: 0;
 background-color: rgba(46, 47, 66, 0.40);
 }
 
@@ -584,7 +585,7 @@ background-color: rgba(46, 47, 66, 0.40);
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%) scale(1);
-     padding: 24px 24px;
+     padding: 72px 24px 24px 24px;
 }
  
 .modal-button-close{
@@ -597,12 +598,24 @@ background-color: rgba(46, 47, 66, 0.40);
     padding: 0;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.10);
-    border-color: #E7E9FC;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.modal-button-close:hover,
+.modal-button-close:focus{
     
+    background-color: #E7E9FC;
 }
 
 .icon-close{
+}
+
+.text-modal{
+    color:  #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
 }
