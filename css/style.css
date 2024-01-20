@@ -810,14 +810,14 @@ margin-bottom: 24px;
 
 }
 
-.check-text{
+.privacy-label{
     color:  #8E8F99;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
 }
 
-.check-text a{
+.privacy-label a{
     color:  #4D5AE5;
         text-decoration: underline;
 }
@@ -835,7 +835,7 @@ margin-bottom: 24px;
     margin-right: 8px;
 }
 
-.check-input:checked + .check-text span{
+.check-input:checked + .privacy-label span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
